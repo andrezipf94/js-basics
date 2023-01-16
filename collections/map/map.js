@@ -20,8 +20,8 @@ console.log(map.get(object));
 
 map.has(1); // returns true if the map has the provided key
 map.delete(1); // deletes an key/value pair.
-map.keys(); // returns an array of keys
-map.values(); // returns an array of values
+map.keys(); // returns an iterator of keys
+map.values(); // returns an iterator of values
 map.forEach((value) => console.log(value)); // executes the provided function for each item
-map.entries(); // returns an iterable of key/value pairs
+map.entries(); // returns an iterator of key/value pairs
 map.clear(); // clears the map, removing all key/value pairs
